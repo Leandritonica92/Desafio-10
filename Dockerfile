@@ -1,4 +1,4 @@
-# Usa una imagen base de Node.js
+# imagen base de Node.js
 FROM node:18-alpine AS builder
 
 # Crea un directorio de trabajo
@@ -22,15 +22,15 @@ RUN tsc
 #Etapa 2: imagen final
 FROM node:18-alpine
 
-#Establecer directorio de trabajo
+#Establecemos el directorio de trabajo
 WORKDIR /app
 
-#Copiar solo los archivos necesarios desde la etapa de construccion
+#Copiamos solo los archivos necesarios desde la etapa de construccion
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package*json ./
 
-# Exponer el puerto en el que la aplicación estará corriendo
+# Exponemos el puerto en el que la aplicación estará corriendo
 EXPOSE 3000
 
 # Comando para iniciar la aplicación

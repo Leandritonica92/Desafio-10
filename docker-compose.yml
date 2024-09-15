@@ -3,8 +3,8 @@ version: '3'
 services:  
   app:   
     build:
-      context: .  # Contexto de construcción: la ruta donde está tu Dockerfile
-      dockerfile: Dockerfile  # (Opcional) Nombre del Dockerfile si es diferente de 'Dockerfile'
+      context: .  
+      dockerfile: Dockerfile  
     ports:      
       - "3000:3000"    
     depends_on:
