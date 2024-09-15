@@ -17,8 +17,8 @@ La aplicación que va a ser manejada por este proceso se encuentra en el siguien
 https://github.com/edgaregonzalez/devops-bootcamp/tree/main/Desafios/Fase3/educacionit-app
 ```
 
-[desafio-10-imagen-1.png](https://postimg.cc/q6cLDxYF)
+[url=https://postimg.cc/q6cLDxYF][img]https://i.postimg.cc/q6cLDxYF/desafio-10-imagen-1.png[/img][/url]
 
 
-[desafio-10-imagen-2.png](https://postimg.cc/QH0PXj4y)
+[url=https://postimages.org/][img]https://i.postimg.cc/L8pM3Xz2/desafio-10-imagen-2.png[/img][/url]
 
