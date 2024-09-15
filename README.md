@@ -2,7 +2,7 @@
 El siguiente desafío tiene como objetivo desarrollar un build en docker y configurar un entorno
 local para que corra una aplicación con docker-compose.
 
-##Escenario:
+## Escenario:
 
 Durante el sprint celebrado recientemente nuestro equipo nos asignó una tarea para desarrollar
 el archivo de build de una aplicación NestJS, esperan que para finalizar el sprint entreguemos
@@ -22,3 +22,5 @@ https://github.com/edgaregonzalez/devops-bootcamp/tree/main/Desafios/Fase3/educa
 
 [url=https://postimages.org/][img]https://i.postimg.cc/L8pM3Xz2/desafio-10-imagen-2.png[/img][/url]
 
+
+[![desafio-10-imagen-2.png](https://i.postimg.cc/L8pM3Xz2/desafio-10-imagen-2.png)](https://postimg.cc/QH0PXj4y)
